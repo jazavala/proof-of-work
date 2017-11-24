@@ -1,6 +1,6 @@
 # Proof of work
 
-`ruby pow_test.rb` to run sample, give me `message` and `difficulty`.
+`ruby lib/proof_of_work.rb` to run sample, give me `message` and `difficulty`.
 
 ### Inputs
 

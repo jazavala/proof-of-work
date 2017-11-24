@@ -1,6 +1,6 @@
 require 'digest'
 require 'pry'
-require './pow_data'
+require './lib/proof-of-work/pow_data'
 
 class Pow
 
