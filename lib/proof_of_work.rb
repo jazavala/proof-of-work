@@ -4,9 +4,9 @@ puts 'Please give me the message'
 message = gets.chomp
 
 puts 'Please give me the difficulty'
-difficulty = gets.chomp
+difficulty = gets.to_i
 
-result = Pow.new(message, 3).proof_of_work
+result = Pow.new(message, difficulty).proof_of_work
 puts '<<<<<<<<<<<<<<<<<<<<< Results >>>>>>>>>>>>>>>>>>>>>>>>>>'
 puts "Message : #{message}
 Difficulty : #{difficulty}
